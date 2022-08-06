@@ -1,0 +1,54 @@
+.form input{
+    border: 1px solid var(--color-golden);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: var(--font-base);
+    height: 3rem;
+}
+
+.form h6{
+    font-size: large;
+    font-family: var(--font-base);
+}
+
+.signup__form input:focus{
+    background: var(--color-black);
+    color: var(--color-white);
+    border: none;
+}
+
+.google__button{
+    width: max-content;
+    float: right;
+}
+
+/* a{
+color: var(--color-white);
+margin-left: 5px;
+} */
+/* a:hover{
+color: var(--color-white);
+border-bottom: 1px solid var(--color-golden);
+
+} */
+
+@media screen and (min-width: 2000px) {
+   
+}
+@media screen and (max-width: 990px) {
+
+}
+@media screen and (max-width: 650px) {
+    /* .app__wrapper_img img{
+        display: none;
+    } */
+}
+@media screen and (max-width: 300px) {
+     h1{
+        font-size: 32px;
+        line-height: 50px;
+    } 
+    .app__wrapper_img img{
+        display: none;
+    }
+}
